@@ -21,7 +21,7 @@ const ClipsSection = () => {
           onClick={(e) => e.target.play()}
           muted={false}
         >
-          <source src="/1000miles.mp4" type="video/mp4" />
+          <source src="/Miles.mp4" type="video/mp4" />
         </video>
         {!playing1000 && <h2>1000 Miles</h2>}
       </div>
@@ -91,7 +91,7 @@ const ClipsSection = () => {
           onClick={(e) => e.target.play()}
           muted={false}
         >
-          <source src="/Sugar We're Goin Down.mp4" />
+          <source src="/Sugar We're Goin Down.mp4" type="video/mp4" />
         </video>
         {!playingSugar && <h2>{`Sugar We're Goin Down`}</h2>}
       </div>
