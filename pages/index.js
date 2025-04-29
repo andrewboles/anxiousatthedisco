@@ -36,7 +36,6 @@ export default function Home({ contest }) {
             width={100}
             height={100}
             alt="band photo"
-            className={styles.img}
           />
         </div>
         <AboutSection {...{ aboutRef }} />
@@ -44,9 +43,13 @@ export default function Home({ contest }) {
       <div className={styles.dummy} />
 
       <div className={styles.videoContainer}>
-        <video width="100%" autoPlay muted loop>
-          <source src="/croppromo.mov" type="video/mp4" />
-        </video>
+        <Image
+          src="/promo.gif"
+          layout="intrinsic"
+          width={10000}
+          height={10000}
+          alt="band photo"
+        />
       </div>
       <div className={styles.hero}>
         <Gallery />

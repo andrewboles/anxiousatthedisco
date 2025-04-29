@@ -17,28 +17,31 @@
   padding-top: 20vh;
 }
 .dummy {
-  height: 100vw;
+  height: 100vh;
   width: 100vw;
 }
-.videoContainer video {
+.videoContainer {
   position: fixed;
   z-index: -2;
   top: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
+}
+@media (max-width: 1200px) {
+  .videoContainer {
+    width: 130vw;
+  }
 }
 
 @media (max-width: 900px) {
   .imgContainer {
     width: 100vw;
   }
-  .videoContainer video {
-    height: 100vh;
-    width: 150vw;
-  }
-  .dummy {
-    height: 60vh;
+  .videoContainer {
+    width: 240vw;
   }
 }
 
@@ -46,11 +49,7 @@
   .imgContainer {
     width: 100vw;
   }
-  .videoContainer video {
-    height: 100vh;
-    width: 250vw;
-  }
-  .dummy {
-    height: 60vh;
+  .videoContainer {
+    width: 280vw;
   }
 }

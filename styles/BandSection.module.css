@@ -1,18 +1,17 @@
 .band {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100vw;
+  z-index: 3;
 }
 
 .imageContainer {
-  margin: 1em;
-  width: 40vw;
+  margin: 0.5em;
 }
 
 @media (max-width: 900px) {
-  .imageContainer {
+  /*   .imageContainer {
     width: 90vw;
-  }
+  } */
 }
