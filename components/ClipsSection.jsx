@@ -93,7 +93,7 @@ const ClipsSection = () => {
         >
           <source src="/Sugar We're Goin Down.mp4" />
         </video>
-        {!playingSugar && <h2>Sugar We're Goin Down</h2>}
+        {!playingSugar && <h2>{`Sugar We're Goin Down`}</h2>}
       </div>
     </div>
   );

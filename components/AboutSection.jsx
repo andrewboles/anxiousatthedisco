@@ -38,8 +38,8 @@ const AboutSection = () => {
         <h2>This Is Us</h2>
         <p>
           <span>
-            Anxious! At The Disco brings the intensity and passion of the 00's
-            with a pop punk twist.
+            {`Anxious! At The Disco brings the intensity and passion of the 00's
+            with a pop punk twist.`}
             <br />
             <br />
           </span>
@@ -50,7 +50,7 @@ const AboutSection = () => {
           <br />
           <br />
           <span>
-            ​Blink-182, Panic! At The Disco, NSYNC, Taylor Swift, and more!
+            {`​Blink-182, Panic! At The Disco, NSYNC, Taylor Swift, and more!`}
           </span>
         </p>
         <div className={styles.socialContainer}>
