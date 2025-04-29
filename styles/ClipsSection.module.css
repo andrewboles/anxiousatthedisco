@@ -1,0 +1,28 @@
+.band {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  margin: 1em;
+  width: 30vw;
+  position: relative;
+}
+
+.imageContainer h2 {
+  position: absolute;
+  bottom: -15px;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+@media (max-width: 900px) {
+  .imageContainer {
+    width: 90vw;
+  }
+}

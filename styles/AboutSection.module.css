@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 30px;
+}
+
+.about h2 {
+  font-family: "open sans condensed", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+}
+.about span {
+  font-family: "open sans", sans-serif;
+  font-size: 21px;
+  color: white;
+  font-weight: 300;
+}
+
+.textContainer {
+  width: 50%;
+  text-align: center;
+}
+
+.about a:hover {
+  transform: scale(1.1);
+  color: #cf9535;
+}
+
+.socialContainer svg {
+  width: clamp(2.8rem, 5vw, 6.6rem);
+  height: clamp(2.8rem, 5vw, 6.6rem);
+  margin: 1rem;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+  .textContainer {
+    width: 90%;
+  }
+  .about {
+    flex-direction: column;
+  }
+}

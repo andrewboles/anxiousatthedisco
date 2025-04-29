@@ -1,0 +1,32 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.projects h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 75px;
+  color: #89908c;
+}
+
+.musicContainer {
+  margin: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 780px) {
+  .musicContainer {
+    flex-direction: column;
+  }
+}

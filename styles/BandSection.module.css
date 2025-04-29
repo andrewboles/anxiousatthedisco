@@ -1,0 +1,18 @@
+.band {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  margin: 1em;
+  width: 40vw;
+}
+
+@media (max-width: 900px) {
+  .imageContainer {
+    width: 90vw;
+  }
+}

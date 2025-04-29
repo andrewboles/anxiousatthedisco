@@ -1,0 +1,22 @@
+.styledButton {
+  border-radius: 150px;
+  padding: 0.5rem 1.4rem;
+  background-color: white;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 200;
+  color: black;
+  transition-duration: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  margin-right: 4px;
+}
+.styledButton:hover {
+  transform: scale(1.1);
+  background-color: #fffefd;
+  color: #e55754;
+}
