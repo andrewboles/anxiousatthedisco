@@ -4,14 +4,28 @@
   justify-content: center;
   width: 100vw;
   z-index: 3;
+  padding-top: 10px;
+}
+.swiper {
+  width: 100vw;
+}
+.swiperSlide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  max-width: 50vw;
+  width: fit-content;
 }
 
-.imageContainer {
-  margin: 0.5em;
+@media (max-width: 1000px) {
+  .swiperSlide {
+    padding-left: 0px;
+  }
 }
 
-@media (max-width: 900px) {
-  /*   .imageContainer {
-    width: 90vw;
-  } */
+@media (max-width: 650px) {
+  .swiperSlide {
+    max-width: 100vw;
+    padding-left: 0px;
+  }
 }
